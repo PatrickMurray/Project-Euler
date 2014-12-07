@@ -1,15 +1,19 @@
-a		= 1
-b		= 2
+a	= 1
+b	= 2
 limit	= 4000000
 
 
-summation = 0
-while b < limit:
-	if b % 2 == 0:
-		summation += b
+def fibonacci_sum (limit):
+	summation = 0
+	while b < limit:
+		if b % 2 == 0:
+			summation += b
+		
+		temp = a
+		a = b
+		b += temp
 	
-	temp = a
-	a = b
-	b += temp
+	return summation
 
-print summation
+
+print fibonacci_sum(limit)
