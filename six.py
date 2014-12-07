@@ -1,11 +1,14 @@
 start	= 1
-end 	= 100
+end	= 100
 
 
 def sum_of_square (a, b):
 	summation = 0
-	for i in range(a, b+1):
-		summation += i * i
+	i = a
+	while i <= b:
+		summation += i ** 2
+		i += 1
+	
 	return summation
 
 
@@ -13,7 +16,7 @@ def square_of_sum (a, b):
 	n = a + b
 	summation = n * (n-1) / 2
 	
-	return summation * summation
+	return summation ** 2
 
 
 def difference (a, b):
