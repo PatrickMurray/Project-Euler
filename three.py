@@ -25,8 +25,7 @@ Steps:
 	b.)	Otherwise, increase the largest prime number by one.
 
 Note:
-As primes are found, the number is broken down into an even smaller
-number.
+As divisible primes are found, the number can be broken down.
 
 """
 
