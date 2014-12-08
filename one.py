@@ -20,7 +20,7 @@ Let:
 Steps:
 1.)	Keep adding "a" while the sum is less than the limit.
 2.)	Repeat step 1 for "b".
-3.) In steps 1 and 2, the common multiples that "a" and "b" share have
+3.)	In steps 1 and 2, the common multiples that "a" and "b" share have
 	been accounted for twice. Repeat step 1 with the product of "a" and
 	"b" and subtract the result.
 
