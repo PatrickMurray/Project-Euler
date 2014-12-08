@@ -11,6 +11,8 @@ What is the largest prime factor of the number 600851475143?
 
 Approach (divide and conquer)
 -----------------------------
+As divisible primes are found, the number can be broken down.
+
 Let:
 	n = 600851475143
 
@@ -23,9 +25,6 @@ Steps:
 		number by the prime and reset the largest prime back to its
 		initial state.
 	b.)	Otherwise, increase the largest prime number by one.
-
-Note:
-As divisible primes are found, the number can be broken down.
 
 """
 
