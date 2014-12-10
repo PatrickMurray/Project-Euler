@@ -20,10 +20,10 @@ Let:
 Steps:
 1.)	Loop through every number "i" in the domain [lower, upper):
 	a.)	Loop through every number "j" in the domain [i, upper):
-		i.)		Compute the product of "i" and "j"
+		i.)	Compute the product of "i" and "j"
 		ii.)	If the product is greator than the largest palindrome
-				stored, validate that it is a palindrome - if it is,
-				update the largest.
+			stored, validate that it is a palindrome - if it is,
+			update the largest.
 
 """
 
